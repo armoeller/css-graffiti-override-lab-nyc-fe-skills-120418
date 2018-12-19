@@ -1,7 +1,21 @@
 /* write your override styles here */
-
-  #wall .tag-1, #wall .tag-1~#tag-2, #wall #tag-2~#tag-3, 
-  .parent  {
+ 
+/* #wall .tag-1, #wall .tag-1~#tag-2, #wall #tag-2~#tag-3, .parent  {
    display: none;
+} */
+
+#wall .tag-1 {
+  display: none;
 }
 
+#wall .tag-1~#tag-2 {
+  display: none;
+}
+
+#wall #tag-2~#tag-3 {
+  display: none;
+}
+
+.parent {
+  display: none;
+}
